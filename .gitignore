@@ -1,0 +1,29 @@
+# Ignorar el entorno virtual
+venv/
+
+# Archivos de configuración y variables de entorno
+.env
+*.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos SQLite (si no quieres subirla)
+instance/*.sqlite
+instance/*.db
+
+# Archivos de migraciones de Flask-Migrate (opcional)
+migrations/
+
+# Archivos de logs
+*.log
+logs/
+
+# Configuración de IDEs y editores de código
+.vscode/
+.idea/
+*.swp
+.DS_Store
